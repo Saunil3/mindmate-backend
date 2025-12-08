@@ -1,4 +1,4 @@
-const BreathingSession = require('../models/BreathingSession');
+
 
 const breathingController = {
   getAllSessions: async (req, res) => {
