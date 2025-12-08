@@ -1,7 +1,6 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const db = require("../config/Database");
-const User = require("../models/User");
 const crypto = require("crypto");
 
 const RESET_TOKEN_EXPIRY = 15 * 60 * 1000; // 15 minutes
