@@ -1,4 +1,4 @@
-const JournalEntry = require("../models/JournalEntry");
+
 
 const journalController = {
   // Get all journals for a logged-in user
