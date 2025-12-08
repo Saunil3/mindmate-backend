@@ -1,4 +1,4 @@
-const Insight = require("../models/Insight");
+
 
 const insightController = {
   // Fetch all insights for the logged-in user
