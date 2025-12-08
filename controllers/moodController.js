@@ -1,4 +1,4 @@
-const MoodEntry = require("../models/MoodEntry");
+
 
 // All mood-related operations grouped under one controller
 const moodController = {
