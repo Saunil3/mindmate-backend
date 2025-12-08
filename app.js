@@ -76,7 +76,7 @@ app.use("*", (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, async () => {
   try {
-    await db.promise().query("SELECT 1");
+    await db.query("SELECT 1");
     console.log("✅ Connected to MySQL database");
     console.log(`🚀 MindMate API running on port ${PORT}`);
   } catch (error) {
